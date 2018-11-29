@@ -1,0 +1,26 @@
+{
+    "name": "thaile/ckfinder",
+    "description": "The Laravel Framework Plugin.",
+    "keywords": ["ckfinder", "laravel"],
+    "authors": [
+        {
+            "name": "thaile",
+            "email": "thaile.dev01@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ThaiLe\\Repository\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barryvdh\\Debugbar\\ServiceProvider"
+            ]
+        }
+    }
+}
